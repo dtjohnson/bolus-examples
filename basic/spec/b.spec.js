@@ -2,7 +2,7 @@
 
 require("bolus");
 
-describe("a", function () {
+describe("b", function () {
     beforeEach(registerPath("app/b.js"));
 
     it("should return 10 when a is 3", function () {
