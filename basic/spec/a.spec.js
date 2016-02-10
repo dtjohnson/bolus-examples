@@ -1,6 +1,6 @@
 "use strict";
 
-require("bolus");
+require("bolus").loadTestGlobals();
 
 describe("a", function () {
     var a;

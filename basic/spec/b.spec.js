@@ -1,6 +1,6 @@
 "use strict";
 
-require("bolus");
+require("bolus").loadTestGlobals();
 
 describe("b", function () {
     beforeEach(registerPath("app/b.js"));

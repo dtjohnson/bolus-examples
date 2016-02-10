@@ -1,7 +1,7 @@
 "use strict";
 
 // Load the bolus library for every spec.
-require("bolus");
+require("bolus").loadTestGlobals();
 
 // Many files use the logger, so here we create a mock.
 beforeEach(registerValue("log", {
